@@ -1,0 +1,7 @@
+CREATE TABLE `User` (Email varchar(255) NOT NULL, UserId int(255) NOT NULL UNIQUE, Name varchar(255) NOT NULL, Age varchar(255) NOT NULL, Gender char(1) NOT NULL, Password varchar(255) NOT NULL, Type varchar(255) NOT NULL, PRIMARY KEY (Email));
+CREATE TABLE Movie (MovieId int(255) NOT NULL AUTO_INCREMENT, Name varchar(255) NOT NULL, Year int(255) NOT NULL, MainActor varchar(255) NOT NULL, MainActress varchar(255) NOT NULL, PosterUrl varchar(255), BackdropPath varchar(255), Overview varchar(255), Rate varchar(255), Price int(255) NOT NULL, NumOfCopies int(255) NOT NULL, PRIMARY KEY (MovieId));
+CREATE TABLE Rent (UserEmail varchar(255) NOT NULL, MovieMovieId int(255) NOT NULL, DueDate varchar(255), State binary(255), PRIMARY KEY (UserEmail, MovieMovieId));
+CREATE TABLE Email (EmailId varchar(255) NOT NULL, Content varchar(255) NOT NULL, PRIMARY KEY (EmailId));
+ALTER TABLE Rent ADD INDEX FKRent445566 (UserEmail), ADD CONSTRAINT FKRent445566 FOREIGN KEY (UserEmail) REFERENCES `User` (Email);
+ALTER TABLE Rent ADD INDEX FKRent600333 (MovieMovieId), ADD CONSTRAINT FKRent600333 FOREIGN KEY (MovieMovieId) REFERENCES Movie (MovieId);
+ALTER TABLE Email ADD INDEX FKEmail417405 (EmailId), ADD CONSTRAINT FKEmail417405 FOREIGN KEY (EmailId) REFERENCES `User` (Email);

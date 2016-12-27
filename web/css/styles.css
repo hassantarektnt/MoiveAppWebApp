@@ -1,0 +1,298 @@
+*{
+    font-family: Helvetica, Serif;
+    font-weight: 600;
+}
+
+.box {
+    border: 1px solid grey;
+    background-color: #d3d3d3;
+}
+.navbar-brand {
+    font-family: 'Harlow Solid', Arial;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+body {
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#myNav{
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid black;
+}
+.btn-default{
+    background-color: #1e1e1e;
+    color: #d3d3d3;
+}
+.input-group{
+    margin: 5px 0;
+}
+textarea{
+    margin-top: 2px;
+}
+.X{
+    margin-top: 2px;
+}
+.mainContainer{
+    padding-top: 30px;
+}
+.center{
+    text-align: center;
+}
+.mainText{
+    font-size: 250%;
+    color: #ffffff;
+    text-shadow: #222222;
+}
+.welcomeContainer{
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 1.5%;
+    border: 1px solid black;
+}
+.homeContainer{
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 3%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+textarea{
+    width: 100%;
+}
+.high{
+    height: 100px;
+}
+.full-width {
+    width: 100%;
+}
+.full{
+    width: 100%;
+    height: 100%;
+}
+
+.btn.btn-default{
+    font-weight: 700;
+}
+#logo{
+    font-family: 'Harlow Solid', Arial;
+    font-size: 500%;
+    font-weight: 900;
+}
+.welcome-lead{
+    font-size: 125%;
+}
+.margin-top{
+    margin-top: 10px;
+}
+.half-width{
+    width: 70%;
+}
+.parent{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.twin{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.special-child{
+    height: 100%;
+    width: 100%;
+}
+.child{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+.black-border{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.active{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.my-active{
+    border: 1px solid #ababab;
+}
+a:hover{
+    text-decoration: none;
+}
+a:after{
+    text-decoration: none;
+}
+
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.some-margin{
+    margin: 25px;
+}
+a:after{
+    text-decoration: none;
+}
+.project-nav{
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.navbar-default{
+    background-color: rgba(255, 255, 255, 0.85);
+}
+a:active{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:focus{
+    text-decoration: none;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+    border-radius: 5px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #1e1e1e !important;
+    color: #d3d3d3;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.read{
+    background-color: #e0e0e0;
+}
+.hand-cursor{
+    cursor: hand;
+}
+.lift-up{
+    margin-top: 0px;
+}
+.parent-label{
+    width: 175px;
+}
+.my-label{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 600;
+}
+.input-group{
+    width: 100%;
+}
+.project-task{
+    width: 100%;
+    background-color: #f4f4f4 !important;
+    margin: 5px;
+}
+
+.poster{
+    width: 205px;
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+}
+
+.search-field{
+    width: 200px !important;
+}
+
+.left-div{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.right-div{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.details-poster{
+    height: 100%;
+    padding: 10px;
+}
